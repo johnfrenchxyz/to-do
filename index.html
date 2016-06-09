@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>To Do List Application</title>
+      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+   </head>
+
+   <body>
+      <div class="container">
+
+         <h1>To Do List Application</h1>
+
+         <!-- New Task -->
+         <p><label for="new-task">Add Item</label><input id="new-task" type="text" autofocus><button id="addButton">Add</button></p>
+
+         <!-- Validation Message -->
+         <div id="errorMessage" class="hide">
+            You have to enter some text! Then add the task.
+         </div>
+
+         <!-- Incomplete / Current Tasks -->
+         <div class="task-container">
+            <h2>To Do:</h2>
+            <ul id="incomplete-tasks">
+
+            </ul>
+            <div id="default-message">
+               <p>There are currently no tasks.  Add one now.</p>
+            </div>
+         </div>
+
+
+         <!-- Completed Tasks -->
+         <h3 id="completed-tasks-header">Completed Tasks:</h3>
+         <ul id="completed-tasks">
+
+         </ul>
+
+      </div>
+
+      <script type="text/javascript" src="js/app.js"></script>
+
+   </body>
+</html>

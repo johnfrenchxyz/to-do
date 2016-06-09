@@ -1,0 +1,7 @@
+Changes to Make:
+
+- Make the “Add Item” dialogue more subtle and then make the actual list more prevalent
+
+- Figure out exactly what the default message needs to say.
+
+- add a "delete all" button
